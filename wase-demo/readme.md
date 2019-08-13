@@ -7,6 +7,8 @@ The example web component we created can be loaded from this URL: `<script src="
 
 Then just add it to your page with regular HTML tags like `<wase-people>`.
 
+See it in action on JsFiddle: https://jsfiddle.net/EricSeastrand/fxc2akby/
+
 
 # Below is the boilerplate content that comes with the StencilJS "starter app", and is not specific to this WASE demo.
 
