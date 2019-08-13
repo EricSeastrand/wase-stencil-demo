@@ -9,14 +9,15 @@ import { loadPeople } from '../../data/people.js';
 export class WasePeople {
   @State() peopleList: object[] = [];
 
-  async componentWillLoad() {
+  async componentDidLoad() {
      const loadedPeople = await loadPeople();
      console.log("Finished loading people", loadedPeople);
      this.peopleList = loadedPeople;
   }
 
   render() {
-    if(this.peopleList.length === 0) {
+    console.log("In Render function");
+    if(this.peopleList.length < 1) {
         return <h1>Nothing has loaded yet</h1>;
     }
     
