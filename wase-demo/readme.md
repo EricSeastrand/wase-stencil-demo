@@ -4,6 +4,7 @@
 ### This is a simple demo that shows loading content from an HTTP endpoint using AJAX, then rendering it.
 
 The example web component we created can be loaded from this URL: `<script src="https://unpkg.com/wase-demo@~0.0.2/dist/wase-demo.js"></script>`
+
 Then just add it to your page with regular HTML tags like `<wase-people>`.
 
 
