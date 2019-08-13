@@ -7,10 +7,9 @@
 
 export async function loadPeople() {
     let payload = {
-        token: "3qVavd4hPHReOB59wulmSA",
+        token: "E_yAsAe8YlZYfmta5GnzVw",
         parameters: {
-          delay: 2,
-          consistent: false
+          delay: 2
         },
         data: {
           name: "nameFirst",
